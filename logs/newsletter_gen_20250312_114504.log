@@ -1,0 +1,224 @@
+2025-03-12 11:45:04,388 - newsletter_generator - INFO - Sistema de logging inicializado
+2025-03-12 11:47:30,883 - newsletter_generator - INFO - Iniciando geração de newsletter...
+2025-03-12 11:47:30,883 - newsletter_generator - INFO - Estilo selecionado: academico
+2025-03-12 11:47:30,918 - newsletter_generator - INFO - Analisando repositório: flrdv/pycalc
+2025-03-12 11:47:35,538 - newsletter_generator - INFO - Dados do repositório flrdv/pycalc obtidos com sucesso
+2025-03-12 11:47:35,553 - newsletter_generator - INFO - 
+Estado atual do grafo:
+2025-03-12 11:47:35,553 - newsletter_generator - INFO - %%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	github_agent(github_agent)
+	newsletter_agent(newsletter_agent)
+	formatter_agent(formatter_agent)
+	state_logger(state_logger)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> github_agent;
+	formatter_agent --> __end__;
+	formatter_agent --> state_logger;
+	github_agent --> newsletter_agent;
+	github_agent --> state_logger;
+	newsletter_agent --> state_logger;
+	state_logger --> __end__;
+	newsletter_agent -.-> formatter_agent;
+	newsletter_agent -.-> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+2025-03-12 11:47:35,588 - newsletter_generator - INFO - ==================================================
+2025-03-12 11:47:35,588 - newsletter_generator - INFO - ==================================================
+2025-03-12 11:47:35,593 - newsletter_generator - INFO - INICIANDO NEWSLETTER AGENT
+2025-03-12 11:47:35,593 - newsletter_generator - INFO - Estado atual do workflow:
+2025-03-12 11:47:35,594 - newsletter_generator - INFO - Estado recebido: {'messages': [{'role': 'user', 'content': 'https://github.com/flrdv/pycalc'}], 'github_data': {'repo_url': 'https://github.com/flrdv/pycalc', 'repo_name': 'pycalc', 'owner': 'flrdv', 'description': 'Turing-complete calculator on python3', 'stars': 14, 'forks': 7, 'watchers': 14, 'language': 'Python', 'topics': ['calc', 'calculator-python', 'interpreter', 'stack-machine', 'turing-complete', 'turing-machine'], 'readme_content': '[![wakatime](https://wakatime.com/badge/user/b4a2ea9a-a721-41c8-b704-79b9b8cec646/project/3e68a432-deec-4dab-ba8a-a5f424e91eed.svg)](https://wakatime.com/badge/user/b4a2ea9a-a721-41c8-b704-79b9b8cec646/project/3e68a432-deec-4dab-ba8a-a5f424e91eed)\n# pycalc\nSimple calculator on python, written in academic purposes. TURING-COMPLETE. Uses Sorting Station Algorithm for building reverse polish notation stack. Supports all kinds of operations python supports (except bool operations like or, not, etc. but they will be implemented as a functions of std-library), functions defining, variables declarations, etc.\n\n# How to install?\n```bash\n$ git clone https://github.com/fakefloordiv/pycalc && cd pycalc\n```\n\n# How to run it?\nFor code running, we have repl.py. It has such options:\n- No options (interactive shell)\n- -e, --execute: execute expression from command line\n- -s, --script: execute code from file (with .calc extension)\n\nFor example:\n```bash\n$ python3 repl.py\n```\n\nOr:\n```bash\n$ python3 repl.py -e "40+2"\n42\n```\n\nEven:\n```bash\n$ python3 repl.py -s examples/fizzbuzz.calc\n```\n\n# How to use it?\nI personally allow you to use: integers, floats, constants, and functions (including defining). For example:\n```\nf(x,y)=x+y\n40 + rt(25, 5) - pi + 0.14 / .14 << f(1,2)\n```\n\n# Documentation\nSee documentation in `docs/` folder.\n', 'last_update': '30 de junho de 2022', 'open_issues': 0}, 'newsletter_content': None, 'formatted_newsletter': None, 'newsletter_style': 'academico', 'error': None, 'output_file': None}
+2025-03-12 11:47:35,594 - newsletter_generator - INFO - Tem github_data: True
+2025-03-12 11:47:35,598 - newsletter_generator - INFO - ==================================================
+2025-03-12 11:47:35,598 - newsletter_generator - INFO - Tem newsletter_content: True
+2025-03-12 11:47:35,598 - newsletter_generator - INFO - Iniciando newsletter_agent
+2025-03-12 11:47:35,598 - newsletter_generator - INFO - Tem formatted_newsletter: True
+2025-03-12 11:47:35,598 - newsletter_generator - INFO - Gerando newsletter para o repositório: pycalc
+2025-03-12 11:47:35,605 - newsletter_generator - INFO - Tem erro: False
+2025-03-12 11:47:35,605 - newsletter_generator - INFO - Verificando variáveis de ambiente...
+2025-03-12 11:47:35,605 - newsletter_generator - INFO - ==================================================
+2025-03-12 11:47:35,607 - newsletter_generator - INFO - OPENROUTER_API_KEY presente: True
+2025-03-12 11:47:35,608 - newsletter_generator - INFO - 
+Estado atual do grafo:
+2025-03-12 11:47:35,608 - newsletter_generator - INFO - Comprimento da chave OpenRouter: 73
+2025-03-12 11:47:35,608 - newsletter_generator - INFO - %%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	github_agent(github_agent)
+	newsletter_agent(newsletter_agent)
+	formatter_agent(formatter_agent)
+	state_logger(state_logger)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> github_agent;
+	formatter_agent --> __end__;
+	formatter_agent --> state_logger;
+	github_agent --> newsletter_agent;
+	github_agent --> state_logger;
+	newsletter_agent --> state_logger;
+	state_logger --> __end__;
+	newsletter_agent -.-> formatter_agent;
+	newsletter_agent -.-> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+2025-03-12 11:47:35,608 - newsletter_generator - INFO - Headers configurados para OpenRouter
+2025-03-12 11:47:35,615 - newsletter_generator - INFO - Preparando requisição para OpenRouter...
+2025-03-12 11:47:35,616 - newsletter_generator - INFO - Preparando payload com os dados do repositório...
+2025-03-12 11:47:35,616 - newsletter_generator - INFO - Enviando requisição para OpenRouter...
+2025-03-12 11:47:59,328 - newsletter_generator - INFO - Status code da resposta: 200
+2025-03-12 11:47:59,328 - newsletter_generator - INFO - Headers da resposta: {'Date': 'Wed, 12 Mar 2025 14:48:02 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Access-Control-Allow-Origin': '*', 'x-clerk-auth-message': 'Invalid JWT form. A JWT consists of three parts separated by dots. (reason=token-invalid, token-carrier=header)', 'x-clerk-auth-reason': 'token-invalid', 'x-clerk-auth-status': 'signed-out', 'Vary': 'Accept-Encoding', 'Server': 'cloudflare', 'CF-RAY': '91f417160867cab2-GIG', 'Content-Encoding': 'gzip'}
+2025-03-12 11:47:59,328 - newsletter_generator - INFO - Corpo da resposta: 
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+    ...
+2025-03-12 11:47:59,369 - newsletter_generator - INFO - Conteúdo da newsletter gerado com sucesso
+2025-03-12 11:47:59,370 - newsletter_generator - INFO - Tamanho do conteúdo: 3856 caracteres
+2025-03-12 11:47:59,370 - newsletter_generator - INFO - Determinando próximo passo. Estado atual: state.get('error')=None, tem github_data: True, tem newsletter_content: True, tem formatted_newsletter: True
+2025-03-12 11:47:59,370 - newsletter_generator - INFO - Indo para formatter_agent
+2025-03-12 11:47:59,370 - newsletter_generator - INFO - 
+Estado atual do grafo:
+2025-03-12 11:47:59,370 - newsletter_generator - INFO - %%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	github_agent(github_agent)
+	newsletter_agent(newsletter_agent)
+	formatter_agent(formatter_agent)
+	state_logger(state_logger)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> github_agent;
+	formatter_agent --> __end__;
+	formatter_agent --> state_logger;
+	github_agent --> newsletter_agent;
+	github_agent --> state_logger;
+	newsletter_agent --> state_logger;
+	state_logger --> __end__;
+	newsletter_agent -.-> formatter_agent;
+	newsletter_agent -.-> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+2025-03-12 11:47:59,378 - newsletter_generator - INFO - 
+Grafo de Execução Final:
+2025-03-12 11:47:59,378 - newsletter_generator - INFO - %% Erro em unknown: At key 'messages': Can receive only one value per step. Use an Annotated key to handle multiple values.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_CONCURRENT_GRAPH_UPDATE
+2025-03-12 11:47:59,378 - newsletter_generator - INFO - %%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD
+    %% Execução Finalizada
+    classDef default fill:#f2f0ff,stroke:#333,stroke-width:2px
+    classDef executed fill:#90EE90,stroke:#006400,stroke-width:2px
+    classDef error fill:#FFB6C1,stroke:#8B0000,stroke-width:2px
+    classDef active fill:#ff9,stroke:#333,stroke-width:2px;
+	__start__([<p>__start__</p>]):::first
+	github_agent(github_agent)
+	newsletter_agent(newsletter_agent)
+	formatter_agent(formatter_agent)
+	state_logger(state_logger)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> github_agent;
+	formatter_agent --> __end__;
+	formatter_agent --> state_logger;
+	github_agent --> newsletter_agent;
+	github_agent --> state_logger;
+	newsletter_agent --> state_logger;
+	state_logger --> __end__;
+	newsletter_agent -.-> formatter_agent;
+	newsletter_agent -.-> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+2025-03-12 11:47:59,387 - newsletter_generator - ERROR - Erro durante a execução: At key 'messages': Can receive only one value per step. Use an Annotated key to handle multiple values.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_CONCURRENT_GRAPH_UPDATE

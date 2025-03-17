@@ -1,0 +1,58 @@
+2025-03-13 18:08:27,948 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-13 18:08:32,360 - ERROR - GitGRAPH - Erro na execução: Erro ao acessar API do GitHub: 401
+2025-03-13 18:13:44,092 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-13 18:13:48,571 - ERROR - GitGRAPH - Erro na execução: Erro ao acessar API do GitHub: 401
+2025-03-13 18:13:56,592 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-13 18:14:13,180 - ERROR - GitGRAPH - Erro na execução: Erro ao acessar API do GitHub: 401
+2025-03-13 18:18:52,909 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-13 18:18:56,989 - ERROR - GitGRAPH - Erro na execução: Erro ao acessar API do GitHub: 401
+2025-03-13 18:33:34,528 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-13 18:33:34,530 - ERROR - GitGRAPH - Token do GitHub não foi carregado corretamente
+2025-03-13 18:34:12,004 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-13 18:34:12,007 - INFO - GitGRAPH - Token do GitHub carregado: ghp_...T1nR
+2025-03-13 18:35:58,452 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-13 18:35:58,454 - INFO - GitGRAPH - Token do GitHub carregado: ghp_...T1nR
+2025-03-13 18:37:03,124 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-13 18:37:03,125 - INFO - GitGRAPH - Token do GitHub carregado: ghp_...T1nR
+2025-03-13 18:38:20,762 - ERROR - GitGRAPH - Erro na execução: Erro ao acessar API do GitHub: 404
+2025-03-13 18:38:30,377 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-13 18:52:43,593 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-13 18:52:51,895 - ERROR - GitGRAPH - Erro na execução: Conteúdo não encontrado
+2025-03-13 18:55:03,929 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-13 18:55:07,682 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-13 18:55:37,760 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-14 08:42:48,818 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-14 08:43:59,664 - ERROR - GitGRAPH - Erro na execução: Erro na API: 400 - {"error":{"message":"deepseek-ai/deepseek-chat is not a valid model ID","code":400},"user_id":"user_2swk2wy61IxyJwCdVamzNdW2w3x"}
+2025-03-14 08:48:39,274 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-14 08:48:57,155 - ERROR - GitGRAPH - Erro na execução: Erro na API: 400 - {"error":{"message":"deepseek-ai/deepseek-chat is not a valid model ID","code":400},"user_id":"user_2swk2wy61IxyJwCdVamzNdW2w3x"}
+2025-03-14 08:50:41,925 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-14 09:16:05,060 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-14 09:28:09,297 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-14 09:58:08,282 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-14 10:39:00,874 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-14 11:39:13,305 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-14 11:39:40,063 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-14 12:45:11,207 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-14 17:03:09,938 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-14 17:07:51,257 - ERROR - GitGRAPH - Erro na execução: Erro ao redigir newsletter: 'analise_detalhada'
+2025-03-14 17:08:45,730 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-14 17:10:21,520 - ERROR - GitGRAPH - Erro na execução: Erro ao redigir newsletter: 'contexto_mercado'
+2025-03-14 17:11:17,807 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-14 17:26:12,576 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-17 09:05:20,549 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-17 09:14:45,210 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-17 09:39:56,330 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-17 09:50:19,936 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-17 10:07:29,149 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-17 12:39:47,148 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-17 15:30:24,982 - INFO - GitGRAPH - Logger 'GitGRAPH' configurado com sucesso. Logs salvos em: c:\Users\bruna.torres\OneDrive - Santa Lucia\Documentos\Bruna\GitGRAPH\logs\GitGRAPH.log
+2025-03-17 15:30:24,984 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-17 15:32:22,860 - INFO - GitGRAPH - Newsletter gerada com sucesso para https://github.com/BruTorres/crud_mongodb_gestaovoos. Arquivo: C:\Users\bruna.torres\OneDrive - Santa Lucia\Documentos\OBSIDIAN\GITGRAPH\newsletter_crud_mongodb_gestaovoos_20250317_153222.md
+2025-03-17 16:28:54,919 - INFO - GitGRAPH - Logger 'GitGRAPH' configurado com sucesso. Logs salvos em: c:\Users\bruna.torres\OneDrive - Santa Lucia\Documentos\Bruna\GitGRAPH\logs\GitGRAPH.log
+2025-03-17 16:28:54,920 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-17 16:37:24,180 - INFO - GitGRAPH - Logger 'GitGRAPH' configurado com sucesso. Logs salvos em: c:\Users\bruna.torres\OneDrive - Santa Lucia\Documentos\Bruna\GitGRAPH\logs\GitGRAPH.log
+2025-03-17 16:37:24,180 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-17 16:39:00,031 - INFO - GitGRAPH - Newsletter gerada com sucesso para https://github.com/SamuelSchmidgall/AgentLaboratory. Arquivo: C:\Users\bruna.torres\OneDrive - Santa Lucia\Documentos\OBSIDIAN\GITGRAPH\newsletter_AgentLaboratory_20250317_163900.md
+2025-03-17 16:49:12,327 - INFO - GitGRAPH - Logger 'GitGRAPH' configurado com sucesso. Logs salvos em: c:\Users\bruna.torres\OneDrive - Santa Lucia\Documentos\Bruna\GitGRAPH\logs\GitGRAPH.log
+2025-03-17 16:49:12,327 - INFO - GitGRAPH - Iniciando gerador de newsletter
+2025-03-17 16:50:46,256 - INFO - GitGRAPH - Newsletter gerada com sucesso para https://github.com/misbahsy/meetingmind. Arquivo: C:\Users\bruna.torres\OneDrive - Santa Lucia\Documentos\OBSIDIAN\GITGRAPH\newsletter_meetingmind_20250317_165046.md

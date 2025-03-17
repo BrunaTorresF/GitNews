@@ -1,0 +1,42 @@
+2025-03-13 17:12:54,633 - INFO - newsletter_generator - Iniciando gerador de newsletter
+2025-03-13 17:13:05,300 - INFO - newsletter_generator.executor - Iniciando execução para repositório: https://github.com/BruTorres/crud_mongodb_gestaovoos
+2025-03-13 17:13:05,302 - INFO - newsletter_generator.github_agent - Buscando dados para repositório BruTorres/crud_mongodb_gestaovoos
+2025-03-13 17:13:07,869 - INFO - newsletter_generator.github_agent - README obtido com 7638 caracteres
+2025-03-13 17:13:07,869 - INFO - newsletter_generator.github_agent - Dados do repositório obtidos com sucesso
+2025-03-13 17:13:07,873 - INFO - newsletter_generator.workflow - Avançando para análise de dados
+2025-03-13 17:13:07,874 - INFO - newsletter_generator.analyzer - Analisando dados do repositório crud_mongodb_gestaovoos
+2025-03-13 17:13:07,874 - INFO - newsletter_generator.analyzer - Conteúdo básico gerado com 356 caracteres
+2025-03-13 17:13:07,874 - INFO - newsletter_generator.workflow - Avançando para geração de conteúdo avançado
+2025-03-13 17:13:07,875 - INFO - newsletter_generator.content_generator - Gerando conteúdo aprimorado para crud_mongodb_gestaovoos
+2025-03-13 17:13:07,876 - INFO - newsletter_generator.content_generator - Enviando requisição para Open Router
+2025-03-13 17:13:36,745 - INFO - newsletter_generator.content_generator - Resposta recebida do LLM (2031 caracteres)
+2025-03-13 17:13:36,749 - INFO - newsletter_generator.content_generator - Newsletter salva em output/newsletter_crud_mongodb_gestaovoos_20250313_171336.md
+2025-03-13 17:13:36,756 - INFO - newsletter_generator.executor - Newsletter gerada com sucesso: output/newsletter_crud_mongodb_gestaovoos_20250313_171336.md
+2025-03-13 17:54:00,082 - INFO - newsletter_generator - Iniciando gerador de newsletter
+2025-03-13 17:55:08,388 - ERROR - newsletter_generator - Erro na execução: No module named 'GitGRAPH'
+2025-03-13 17:56:17,317 - INFO - newsletter_generator - Iniciando gerador de newsletter
+2025-03-13 17:56:25,255 - ERROR - newsletter_generator - Erro na execução: No module named 'GitGRAPH'
+2025-03-13 17:57:30,626 - INFO - newsletter_generator - Iniciando gerador de newsletter
+2025-03-13 17:57:33,134 - INFO - newsletter_generator.executor - Iniciando execução para repositório: https://github.com/HigorClemes/DominoGame
+2025-03-13 17:57:33,137 - INFO - newsletter_generator.github_agent - Buscando dados para repositório HigorClemes/DominoGame
+2025-03-13 17:57:33,920 - ERROR - newsletter_generator.github_agent - Erro ao acessar API do GitHub: 401
+2025-03-13 17:57:33,923 - WARNING - newsletter_generator.workflow - Erro detectado, encerrando workflow: Erro ao acessar API do GitHub: 401
+2025-03-13 17:57:33,927 - ERROR - newsletter_generator.executor - Erro encontrado: Erro ao acessar API do GitHub: 401
+2025-03-13 17:57:33,927 - ERROR - newsletter_generator.executor - Erro durante execução: Erro ao acessar API do GitHub: 401
+2025-03-13 17:57:33,928 - ERROR - newsletter_generator - Erro na execução: Erro ao acessar API do GitHub: 401
+2025-03-13 17:58:34,875 - INFO - newsletter_generator - Iniciando gerador de newsletter
+2025-03-13 17:58:38,053 - INFO - newsletter_generator.executor - Iniciando execução para repositório: https://github.com/HigorClemes/DominoGame
+2025-03-13 17:58:38,056 - INFO - newsletter_generator.github_agent - Buscando dados para repositório HigorClemes/DominoGame
+2025-03-13 17:58:38,823 - ERROR - newsletter_generator.github_agent - Erro ao acessar API do GitHub: 401
+2025-03-13 17:58:38,826 - WARNING - newsletter_generator.workflow - Erro detectado, encerrando workflow: Erro ao acessar API do GitHub: 401
+2025-03-13 17:58:38,830 - ERROR - newsletter_generator.executor - Erro encontrado: Erro ao acessar API do GitHub: 401
+2025-03-13 17:58:38,831 - ERROR - newsletter_generator.executor - Erro durante execução: Erro ao acessar API do GitHub: 401
+2025-03-13 17:58:38,831 - ERROR - newsletter_generator - Erro na execução: Erro ao acessar API do GitHub: 401
+2025-03-13 17:59:12,727 - INFO - newsletter_generator - Iniciando gerador de newsletter
+2025-03-13 17:59:15,430 - INFO - newsletter_generator.executor - Iniciando execução para repositório: https://github.com/HigorClemes/DominoGame
+2025-03-13 17:59:15,432 - INFO - newsletter_generator.github_agent - Buscando dados para repositório HigorClemes/DominoGame
+2025-03-13 17:59:16,162 - ERROR - newsletter_generator.github_agent - Erro ao acessar API do GitHub: 401
+2025-03-13 17:59:16,164 - WARNING - newsletter_generator.workflow - Erro detectado, encerrando workflow: Erro ao acessar API do GitHub: 401
+2025-03-13 17:59:16,168 - ERROR - newsletter_generator.executor - Erro encontrado: Erro ao acessar API do GitHub: 401
+2025-03-13 17:59:16,169 - ERROR - newsletter_generator.executor - Erro durante execução: Erro ao acessar API do GitHub: 401
+2025-03-13 17:59:16,170 - ERROR - newsletter_generator - Erro na execução: Erro ao acessar API do GitHub: 401

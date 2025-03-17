@@ -1,0 +1,124 @@
+2025-03-12 11:25:34,439 - newsletter_generator - INFO - Sistema de logging inicializado
+2025-03-12 11:26:01,438 - newsletter_generator - INFO - Iniciando geração de newsletter...
+2025-03-12 11:26:01,438 - newsletter_generator - INFO - Estilo selecionado: empresarial
+2025-03-12 11:26:01,489 - newsletter_generator - INFO - 
+Estado atual do grafo:
+2025-03-12 11:26:01,489 - newsletter_generator - INFO - %%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	github_agent(github_agent)
+	newsletter_agent(newsletter_agent)
+	formatter_agent(formatter_agent)
+	state_logger(state_logger)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> github_agent;
+	formatter_agent --> __end__;
+	formatter_agent --> state_logger;
+	github_agent --> newsletter_agent;
+	github_agent --> state_logger;
+	newsletter_agent --> state_logger;
+	state_logger --> __end__;
+	newsletter_agent -.-> formatter_agent;
+	newsletter_agent -.-> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+2025-03-12 11:26:01,528 - newsletter_generator - INFO - ==================================================
+2025-03-12 11:26:01,528 - newsletter_generator - INFO - ==================================================
+2025-03-12 11:26:01,528 - newsletter_generator - INFO - INICIANDO NEWSLETTER AGENT
+2025-03-12 11:26:01,528 - newsletter_generator - INFO - Estado atual do workflow:
+2025-03-12 11:26:01,528 - newsletter_generator - INFO - Estado recebido: {'messages': [HumanMessage(content='https://github.com/flrdv/pycalc', additional_kwargs={}, response_metadata={}, id='8b0b3bf9-5b37-4b28-bc15-e703ba517d59')], 'github_data': None, 'newsletter_content': None, 'formatted_newsletter': None, 'newsletter_style': 'empresarial', 'error': 'Formato de mensagem inválido', 'output_file': None}
+2025-03-12 11:26:01,528 - newsletter_generator - INFO - Tem github_data: True
+2025-03-12 11:26:01,536 - newsletter_generator - INFO - ==================================================
+2025-03-12 11:26:01,536 - newsletter_generator - INFO - Tem newsletter_content: True
+2025-03-12 11:26:01,536 - newsletter_generator - INFO - Iniciando newsletter_agent
+2025-03-12 11:26:01,536 - newsletter_generator - INFO - Tem formatted_newsletter: True
+2025-03-12 11:26:01,536 - newsletter_generator - ERROR - Erro inesperado ao gerar newsletter: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\bruna.torres\OneDrive - Santa Lucia\Documentos\Bruna\lang.py", line 191, in newsletter_agent
+    logger.info(f"Gerando newsletter para o repositório: {github_data['repo_name']}")
+                                                          ~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-03-12 11:26:01,536 - newsletter_generator - INFO - Tem erro: True
+2025-03-12 11:26:01,544 - newsletter_generator - INFO - Determinando próximo passo. Estado atual: state.get('error')="Erro inesperado ao gerar newsletter: 'NoneType' object is not subscriptable", tem github_data: True, tem newsletter_content: True, tem formatted_newsletter: True
+2025-03-12 11:26:01,544 - newsletter_generator - INFO - ==================================================
+2025-03-12 11:26:01,544 - newsletter_generator - INFO - Finalizando workflow devido a erro
+2025-03-12 11:26:01,544 - newsletter_generator - INFO - 
+Estado atual do grafo:
+2025-03-12 11:26:01,544 - newsletter_generator - INFO - %%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	github_agent(github_agent)
+	newsletter_agent(newsletter_agent)
+	formatter_agent(formatter_agent)
+	state_logger(state_logger)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> github_agent;
+	formatter_agent --> __end__;
+	formatter_agent --> state_logger;
+	github_agent --> newsletter_agent;
+	github_agent --> state_logger;
+	newsletter_agent --> state_logger;
+	state_logger --> __end__;
+	newsletter_agent -.-> formatter_agent;
+	newsletter_agent -.-> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+2025-03-12 11:26:01,559 - newsletter_generator - INFO - 
+Estado atual do grafo:
+2025-03-12 11:26:01,559 - newsletter_generator - INFO - %%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	github_agent(github_agent)
+	newsletter_agent(newsletter_agent)
+	formatter_agent(formatter_agent)
+	state_logger(state_logger)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> github_agent;
+	formatter_agent --> __end__;
+	formatter_agent --> state_logger;
+	github_agent --> newsletter_agent;
+	github_agent --> state_logger;
+	newsletter_agent --> state_logger;
+	state_logger --> __end__;
+	newsletter_agent -.-> formatter_agent;
+	newsletter_agent -.-> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+2025-03-12 11:26:01,569 - newsletter_generator - INFO - 
+Grafo de Execução Final:
+2025-03-12 11:26:01,569 - newsletter_generator - INFO - %% Erro em unknown: At key 'github_data': Can receive only one value per step. Use an Annotated key to handle multiple values.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_CONCURRENT_GRAPH_UPDATE
+2025-03-12 11:26:01,569 - newsletter_generator - INFO - %%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD
+    %% Execução Finalizada
+    classDef default fill:#f2f0ff,stroke:#333,stroke-width:2px
+    classDef executed fill:#90EE90,stroke:#006400,stroke-width:2px
+    classDef error fill:#FFB6C1,stroke:#8B0000,stroke-width:2px
+    classDef active fill:#ff9,stroke:#333,stroke-width:2px;
+	__start__([<p>__start__</p>]):::first
+	github_agent(github_agent)
+	newsletter_agent(newsletter_agent)
+	formatter_agent(formatter_agent)
+	state_logger(state_logger)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> github_agent;
+	formatter_agent --> __end__;
+	formatter_agent --> state_logger;
+	github_agent --> newsletter_agent;
+	github_agent --> state_logger;
+	newsletter_agent --> state_logger;
+	state_logger --> __end__;
+	newsletter_agent -.-> formatter_agent;
+	newsletter_agent -.-> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+2025-03-12 11:26:01,578 - newsletter_generator - ERROR - Erro durante a execução: At key 'github_data': Can receive only one value per step. Use an Annotated key to handle multiple values.
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/INVALID_CONCURRENT_GRAPH_UPDATE

@@ -1,0 +1,76 @@
+2025-03-12 11:41:58,148 - newsletter_generator - INFO - Sistema de logging inicializado
+2025-03-12 11:43:42,538 - newsletter_generator - INFO - Iniciando geração de newsletter...
+2025-03-12 11:43:42,538 - newsletter_generator - INFO - Estilo selecionado: academico
+2025-03-12 11:43:42,608 - newsletter_generator - INFO - 
+Estado atual do grafo:
+2025-03-12 11:43:42,608 - newsletter_generator - INFO - %%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	github_agent(github_agent)
+	newsletter_agent(newsletter_agent)
+	formatter_agent(formatter_agent)
+	state_logger(state_logger)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> github_agent;
+	formatter_agent --> __end__;
+	formatter_agent --> state_logger;
+	github_agent --> newsletter_agent;
+	github_agent --> state_logger;
+	newsletter_agent --> state_logger;
+	state_logger --> __end__;
+	newsletter_agent -.-> formatter_agent;
+	newsletter_agent -.-> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+2025-03-12 11:43:42,648 - newsletter_generator - INFO - ==================================================
+2025-03-12 11:43:42,648 - newsletter_generator - INFO - ==================================================
+2025-03-12 11:43:42,648 - newsletter_generator - INFO - INICIANDO NEWSLETTER AGENT
+2025-03-12 11:43:42,648 - newsletter_generator - INFO - Estado atual do workflow:
+2025-03-12 11:43:42,648 - newsletter_generator - INFO - Estado recebido: {'messages': [HumanMessage(content='https://github.com/flrdv/pycalc', additional_kwargs={}, response_metadata={}, id='d40200d8-f375-4c6d-a486-fe14b322e7a1')], 'github_data': functools.partial(<function add_messages at 0x0000027CECFD5B20>), 'newsletter_content': functools.partial(<function add_messages at 0x0000027CECFD5B20>), 'formatted_newsletter': functools.partial(<function add_messages at 0x0000027CECFD5B20>), 'newsletter_style': 'academico', 'error': 'Formato de mensagem inválido', 'output_file': None}
+2025-03-12 11:43:42,648 - newsletter_generator - INFO - Tem github_data: True
+2025-03-12 11:43:42,648 - newsletter_generator - INFO - ==================================================
+2025-03-12 11:43:42,658 - newsletter_generator - INFO - Tem newsletter_content: True
+2025-03-12 11:43:42,658 - newsletter_generator - INFO - Iniciando newsletter_agent
+2025-03-12 11:43:42,658 - newsletter_generator - INFO - Tem formatted_newsletter: True
+2025-03-12 11:43:42,658 - newsletter_generator - ERROR - Erro inesperado ao gerar newsletter: 'functools.partial' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\bruna.torres\OneDrive - Santa Lucia\Documentos\Bruna\lang.py", line 252, in newsletter_agent
+    logger.info(f"Gerando newsletter para o repositório: {github_data['repo_name']}")
+                                                          ~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: 'functools.partial' object is not subscriptable
+2025-03-12 11:43:42,658 - newsletter_generator - INFO - Tem erro: True
+2025-03-12 11:43:42,668 - newsletter_generator - INFO - ==================================================
+2025-03-12 11:43:42,668 - newsletter_generator - INFO - 
+Grafo de Execução Final:
+2025-03-12 11:43:42,668 - newsletter_generator - INFO - %% Erro em unknown: Unsupported message type: <class 'functools.partial'>
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/MESSAGE_COERCION_FAILURE 
+2025-03-12 11:43:42,677 - newsletter_generator - INFO - %%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD
+    %% Execução Finalizada
+    classDef default fill:#f2f0ff,stroke:#333,stroke-width:2px
+    classDef executed fill:#90EE90,stroke:#006400,stroke-width:2px
+    classDef error fill:#FFB6C1,stroke:#8B0000,stroke-width:2px
+    classDef active fill:#ff9,stroke:#333,stroke-width:2px;
+	__start__([<p>__start__</p>]):::first
+	github_agent(github_agent)
+	newsletter_agent(newsletter_agent)
+	formatter_agent(formatter_agent)
+	state_logger(state_logger)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> github_agent;
+	formatter_agent --> __end__;
+	formatter_agent --> state_logger;
+	github_agent --> newsletter_agent;
+	github_agent --> state_logger;
+	newsletter_agent --> state_logger;
+	state_logger --> __end__;
+	newsletter_agent -.-> formatter_agent;
+	newsletter_agent -.-> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+2025-03-12 11:43:42,688 - newsletter_generator - ERROR - Erro durante a execução: Unsupported message type: <class 'functools.partial'>
+For troubleshooting, visit: https://python.langchain.com/docs/troubleshooting/errors/MESSAGE_COERCION_FAILURE 

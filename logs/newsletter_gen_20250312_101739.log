@@ -1,0 +1,6 @@
+2025-03-12 10:17:39,443 - newsletter_generator - INFO - Sistema de logging inicializado
+2025-03-12 10:18:08,982 - newsletter_generator - INFO - Iniciando geração de newsletter...
+2025-03-12 10:18:08,982 - newsletter_generator - INFO - Estilo selecionado: empresarial
+2025-03-12 10:18:09,008 - newsletter_generator - INFO - 
+Grafo de Execução Planejado:
+2025-03-12 10:18:09,013 - newsletter_generator - ERROR - Erro durante a execução: 'CompiledStateGraph' object has no attribute 'get_graph_mermaid'

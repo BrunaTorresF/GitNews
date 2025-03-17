@@ -1,0 +1,54 @@
+2025-03-12 10:28:32,572 - newsletter_generator - INFO - Sistema de logging inicializado
+2025-03-12 10:28:48,023 - newsletter_generator - INFO - Iniciando geração de newsletter...
+2025-03-12 10:28:48,027 - newsletter_generator - INFO - Estilo selecionado: empresarial
+2025-03-12 10:28:48,072 - newsletter_generator - INFO - 
+Grafo de Execução Planejado:
+2025-03-12 10:28:48,082 - newsletter_generator - INFO - %%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	github_agent(github_agent)
+	newsletter_agent(newsletter_agent)
+	formatter_agent(formatter_agent)
+	state_logger(state_logger)
+	__end__(<p>__end__</p>)
+	__start__ --> github_agent;
+	formatter_agent --> __end__;
+	formatter_agent --> state_logger;
+	github_agent --> newsletter_agent;
+	github_agent --> state_logger;
+	newsletter_agent --> state_logger;
+	newsletter_agent -.-> formatter_agent;
+	newsletter_agent -.-> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+2025-03-12 10:28:48,182 - newsletter_generator - ERROR - Erro durante a execução do workflow: 'list' object has no attribute 'strip'
+2025-03-12 10:28:48,182 - newsletter_generator - INFO - 
+Caminho de Execução Real:
+2025-03-12 10:28:48,182 - newsletter_generator - INFO - 
+2025-03-12 10:28:48,182 - newsletter_generator - INFO - 
+Grafo de Execução Final:
+2025-03-12 10:28:48,182 - newsletter_generator - INFO - %%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD
+    classDef executed fill:#90EE90,stroke:#006400
+    classDef error fill:#FFB6C1,stroke:#8B0000;
+	__start__([<p>__start__</p>]):::first
+	github_agent(github_agent)
+	newsletter_agent(newsletter_agent)
+	formatter_agent(formatter_agent)
+	state_logger(state_logger)
+	__end__(<p>__end__</p>)
+	__start__ --> github_agent;
+	formatter_agent --> __end__;
+	formatter_agent --> state_logger;
+	github_agent --> newsletter_agent;
+	github_agent --> state_logger;
+	newsletter_agent --> state_logger;
+	newsletter_agent -.-> formatter_agent;
+	newsletter_agent -.-> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
+2025-03-12 10:28:48,192 - newsletter_generator - ERROR - Erro durante a execução: 'NoneType' object has no attribute 'get'

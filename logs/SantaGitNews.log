@@ -1,0 +1,3 @@
+2025-03-17 18:13:09,636 - INFO - SantaGitNews - Logger 'SantaGitNews' configurado com sucesso. Logs salvos em: c:\Users\bruna.torres\OneDrive - Santa Lucia\Documentos\Bruna\SantaGitNews\logs\SantaGitNews.log
+2025-03-17 18:13:09,637 - INFO - SantaGitNews - Iniciando gerador de newsletter
+2025-03-17 18:14:54,451 - INFO - SantaGitNews - Newsletter gerada com sucesso para https://github.com/SamuelSchmidgall/AgentLaboratory. Arquivo: C:\Users\bruna.torres\OneDrive - Santa Lucia\Documentos\OBSIDIAN\SantaGitNews\newsletter_AgentLaboratory_20250317_181454.md

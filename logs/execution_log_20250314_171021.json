@@ -1,0 +1,65 @@
+{
+  "execution_path": [
+    "github_agent",
+    "estruturador_newsletter",
+    "content_generator",
+    "redator_newsletter"
+  ],
+  "start_time": "2025-03-14 17:08:55",
+  "end_time": "2025-03-14 17:10:21",
+  "duration_seconds": 86.44,
+  "steps": [
+    {
+      "timestamp": "17:08:57.164",
+      "node": "github_agent",
+      "state": {
+        "repo_url": "https://github.com/flrdv/pycalc",
+        "content": null,
+        "enhanced_content": null,
+        "formatted_content": null,
+        "output_file": null,
+        "error": null,
+        "repo_name": "pycalc"
+      }
+    },
+    {
+      "timestamp": "17:08:57.165",
+      "node": "estruturador_newsletter",
+      "state": {
+        "repo_url": "https://github.com/flrdv/pycalc",
+        "content": "# pycalc - An\u00e1lise e Guia Pr\u00e1tico\n\n## Vis\u00e3o Geral\n- **Criado por:** flrdv\n- **Descri\u00e7\u00e3o:** Turing-complete calculator on python3\n- **Linguagem Principal:** Python\n- **\u00daltima atualiza\u00e7\u00e3o:** 01/02/2025\n\n## Estat\u00edsticas e Popularidade\n- \u2b50 Stars: 14\n- \ud83c\udf74 Forks: 7\n- \ud83d\udd0d Issues Abertas: 0\n- \ud83d\udcc5 Criado em: 28/04/2022\n\n## Acesso R\u00e1pido\n\ud83d\udcc2 Reposit\u00f3rio: https://github.com/flrdv/pycalc\n\n\n---\nNewsletter gerada em 14/03/2025 17:08:57\n",
+        "enhanced_content": null,
+        "formatted_content": null,
+        "output_file": null,
+        "error": null,
+        "repo_name": "pycalc"
+      }
+    },
+    {
+      "timestamp": "17:09:13.916",
+      "node": "content_generator",
+      "state": {
+        "repo_url": "https://github.com/flrdv/pycalc",
+        "content": "# pycalc - An\u00e1lise e Guia Pr\u00e1tico\n\n## Vis\u00e3o Geral\n- **Criado por:** flrdv\n- **Descri\u00e7\u00e3o:** Turing-complete calculator on python3\n- **Linguagem Principal:** Python\n- **\u00daltima atualiza\u00e7\u00e3o:** 01/02/2025\n\n## Estat\u00edsticas e Popularidade\n- \u2b50 Stars: 14\n- \ud83c\udf74 Forks: 7\n- \ud83d\udd0d Issues Abertas: 0\n- \ud83d\udcc5 Criado em: 28/04/2022\n\n## Acesso R\u00e1pido\n\ud83d\udcc2 Reposit\u00f3rio: https://github.com/flrdv/pycalc\n\n\n---\nNewsletter gerada em 14/03/2025 17:08:57\n",
+        "enhanced_content": "O reposit\u00f3rio **pycalc** \u00e9 uma calculadora Turing-completa desenvolvida em Python, projetada tanto para fins acad\u00eamicos quanto para uso pr\u00e1tico. Seu prop\u00f3sito principal \u00e9 oferecer uma ferramenta de c\u00e1lculo avan\u00e7ada que vai al\u00e9m das opera\u00e7\u00f5es matem\u00e1ticas b\u00e1sicas, permitindo a defini\u00e7\u00e3o de fun\u00e7\u00f5es, declara\u00e7\u00e3o de vari\u00e1veis e execu\u00e7\u00e3o de express\u00f5es complexas. Isso resolve o problema de quem precisa de uma calculadora program\u00e1vel, mas sem a complexidade de uma linguagem de programa\u00e7\u00e3o completa. \u00c9 ideal para estudantes, desenvolvedores ou entusiastas que desejam explorar conceitos matem\u00e1ticos e algor\u00edtmicos de forma interativa.\n\nA arquitetura do projeto \u00e9 baseada no **Algoritmo da Esta\u00e7\u00e3o de Ordena\u00e7\u00e3o** (Shunting Yard Algorithm), que converte express\u00f5es matem\u00e1ticas em nota\u00e7\u00e3o polonesa reversa (RPN), facilitando a avalia\u00e7\u00e3o de opera\u00e7\u00f5es complexas. O c\u00f3digo \u00e9 modular e bem estruturado, com um arquivo principal (`repl.py`) que oferece tr\u00eas modos de execu\u00e7\u00e3o: um shell interativo, execu\u00e7\u00e3o direta de express\u00f5es via linha de comando e execu\u00e7\u00e3o de scripts com extens\u00e3o `.calc`. Essa flexibilidade torna o projeto acess\u00edvel tanto para uso casual quanto para tarefas mais avan\u00e7adas.\n\nAs principais funcionalidades incluem suporte a opera\u00e7\u00f5es matem\u00e1ticas padr\u00e3o, constantes (como `pi`), fun\u00e7\u00f5es pr\u00e9-definidas (como `rt` para ra\u00edzes) e a capacidade de definir fun\u00e7\u00f5es personalizadas. Isso permite que os usu\u00e1rios criem c\u00e1lculos personalizados e reutiliz\u00e1veis, como a implementa\u00e7\u00e3o de algoritmos cl\u00e1ssicos (por exemplo, FizzBuzz). O projeto tamb\u00e9m \u00e9 extens\u00edvel, com planos para adicionar opera\u00e7\u00f5es booleanas e outras funcionalidades no futuro.\n\nCasos de uso reais incluem a resolu\u00e7\u00e3o de problemas matem\u00e1ticos complexos, a cria\u00e7\u00e3o de scripts para automa\u00e7\u00e3o de c\u00e1lculos e o ensino de conceitos de programa\u00e7\u00e3o e matem\u00e1tica. Por exemplo, um professor pode usar o `pycalc` para demonstrar algoritmos em sala de aula, enquanto um desenvolvedor pode utiliz\u00e1-lo para prototipar f\u00f3rmulas antes de implement\u00e1-las em um sistema maior.\n\nA facilidade de uso \u00e9 um dos pontos fortes do projeto. A curva de aprendizado \u00e9 suave, especialmente para quem j\u00e1 tem familiaridade com Python ou conceitos b\u00e1sicos de programa\u00e7\u00e3o. A documenta\u00e7\u00e3o fornecida na pasta `docs/` ajuda os usu\u00e1rios a explorar todas as funcionalidades dispon\u00edveis. No cen\u00e1rio tecnol\u00f3gico atual, onde a demanda por ferramentas flex\u00edveis e educacionais cresce constantemente, o `pycalc` se destaca como uma solu\u00e7\u00e3o pr\u00e1tica e acess\u00edvel para c\u00e1lculos avan\u00e7ados e aprendizado de programa\u00e7\u00e3o.",
+        "formatted_content": null,
+        "output_file": null,
+        "error": null,
+        "repo_name": "pycalc"
+      }
+    },
+    {
+      "timestamp": "17:10:21.509",
+      "node": "redator_newsletter",
+      "state": {
+        "repo_url": "https://github.com/flrdv/pycalc",
+        "content": "# pycalc - An\u00e1lise e Guia Pr\u00e1tico\n\n## Vis\u00e3o Geral\n- **Criado por:** flrdv\n- **Descri\u00e7\u00e3o:** Turing-complete calculator on python3\n- **Linguagem Principal:** Python\n- **\u00daltima atualiza\u00e7\u00e3o:** 01/02/2025\n\n## Estat\u00edsticas e Popularidade\n- \u2b50 Stars: 14\n- \ud83c\udf74 Forks: 7\n- \ud83d\udd0d Issues Abertas: 0\n- \ud83d\udcc5 Criado em: 28/04/2022\n\n## Acesso R\u00e1pido\n\ud83d\udcc2 Reposit\u00f3rio: https://github.com/flrdv/pycalc\n\n\n---\nNewsletter gerada em 14/03/2025 17:08:57\n",
+        "enhanced_content": "O reposit\u00f3rio **pycalc** \u00e9 uma calculadora Turing-completa desenvolvida em Python, projetada tanto para fins acad\u00eamicos quanto para uso pr\u00e1tico. Seu prop\u00f3sito principal \u00e9 oferecer uma ferramenta de c\u00e1lculo avan\u00e7ada que vai al\u00e9m das opera\u00e7\u00f5es matem\u00e1ticas b\u00e1sicas, permitindo a defini\u00e7\u00e3o de fun\u00e7\u00f5es, declara\u00e7\u00e3o de vari\u00e1veis e execu\u00e7\u00e3o de express\u00f5es complexas. Isso resolve o problema de quem precisa de uma calculadora program\u00e1vel, mas sem a complexidade de uma linguagem de programa\u00e7\u00e3o completa. \u00c9 ideal para estudantes, desenvolvedores ou entusiastas que desejam explorar conceitos matem\u00e1ticos e algor\u00edtmicos de forma interativa.\n\nA arquitetura do projeto \u00e9 baseada no **Algoritmo da Esta\u00e7\u00e3o de Ordena\u00e7\u00e3o** (Shunting Yard Algorithm), que converte express\u00f5es matem\u00e1ticas em nota\u00e7\u00e3o polonesa reversa (RPN), facilitando a avalia\u00e7\u00e3o de opera\u00e7\u00f5es complexas. O c\u00f3digo \u00e9 modular e bem estruturado, com um arquivo principal (`repl.py`) que oferece tr\u00eas modos de execu\u00e7\u00e3o: um shell interativo, execu\u00e7\u00e3o direta de express\u00f5es via linha de comando e execu\u00e7\u00e3o de scripts com extens\u00e3o `.calc`. Essa flexibilidade torna o projeto acess\u00edvel tanto para uso casual quanto para tarefas mais avan\u00e7adas.\n\nAs principais funcionalidades incluem suporte a opera\u00e7\u00f5es matem\u00e1ticas padr\u00e3o, constantes (como `pi`), fun\u00e7\u00f5es pr\u00e9-definidas (como `rt` para ra\u00edzes) e a capacidade de definir fun\u00e7\u00f5es personalizadas. Isso permite que os usu\u00e1rios criem c\u00e1lculos personalizados e reutiliz\u00e1veis, como a implementa\u00e7\u00e3o de algoritmos cl\u00e1ssicos (por exemplo, FizzBuzz). O projeto tamb\u00e9m \u00e9 extens\u00edvel, com planos para adicionar opera\u00e7\u00f5es booleanas e outras funcionalidades no futuro.\n\nCasos de uso reais incluem a resolu\u00e7\u00e3o de problemas matem\u00e1ticos complexos, a cria\u00e7\u00e3o de scripts para automa\u00e7\u00e3o de c\u00e1lculos e o ensino de conceitos de programa\u00e7\u00e3o e matem\u00e1tica. Por exemplo, um professor pode usar o `pycalc` para demonstrar algoritmos em sala de aula, enquanto um desenvolvedor pode utiliz\u00e1-lo para prototipar f\u00f3rmulas antes de implement\u00e1-las em um sistema maior.\n\nA facilidade de uso \u00e9 um dos pontos fortes do projeto. A curva de aprendizado \u00e9 suave, especialmente para quem j\u00e1 tem familiaridade com Python ou conceitos b\u00e1sicos de programa\u00e7\u00e3o. A documenta\u00e7\u00e3o fornecida na pasta `docs/` ajuda os usu\u00e1rios a explorar todas as funcionalidades dispon\u00edveis. No cen\u00e1rio tecnol\u00f3gico atual, onde a demanda por ferramentas flex\u00edveis e educacionais cresce constantemente, o `pycalc` se destaca como uma solu\u00e7\u00e3o pr\u00e1tica e acess\u00edvel para c\u00e1lculos avan\u00e7ados e aprendizado de programa\u00e7\u00e3o.",
+        "formatted_content": null,
+        "output_file": null,
+        "error": "Erro ao redigir newsletter: 'contexto_mercado'",
+        "repo_name": "pycalc"
+      }
+    }
+  ]
+}

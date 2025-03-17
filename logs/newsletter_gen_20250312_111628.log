@@ -1,0 +1,4 @@
+2025-03-12 11:16:28,100 - newsletter_generator - INFO - Sistema de logging inicializado
+2025-03-12 11:17:24,228 - newsletter_generator - INFO - Iniciando geração de newsletter...
+2025-03-12 11:17:24,229 - newsletter_generator - INFO - Estilo selecionado: empresarial
+2025-03-12 11:17:24,229 - newsletter_generator - ERROR - Erro durante a execução: Must provide state_schema or input and output

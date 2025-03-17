@@ -1,0 +1,21 @@
+{
+  "execution_path": [
+    "github_agent"
+  ],
+  "start_time": "2025-03-13 18:38:19",
+  "end_time": "2025-03-13 18:38:20",
+  "duration_seconds": 0.77,
+  "steps": [
+    {
+      "timestamp": "18:38:20.757",
+      "node": "github_agent",
+      "state": {
+        "repo_url": "& \"C:/Users/bruna.torres/OneDrive - Santa Lucia/Documentos/Bruna/.venv/Scripts/python.exe\" \"c:/Users/bruna.torres/OneDrive - Santa Lucia/Documentos/Bruna/GitGRAPH/main.py\"",
+        "content": null,
+        "enhanced_content": null,
+        "output_file": null,
+        "error": "Erro ao acessar API do GitHub: 404"
+      }
+    }
+  ]
+}
